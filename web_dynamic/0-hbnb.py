@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """ Starts a Flash Web Application """
+import pymysql
 from functools import cache
 import uuid
 from models import storage
